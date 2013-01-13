@@ -24,6 +24,10 @@ With your own image:
 
 `[plugin-banner name="Plugin Name" img="http://image-url/"]`
 
+= Known limitations =
+
+* Only loads .png images from the repo
+
 == Frequently Asked Questions ==
 
 None.
