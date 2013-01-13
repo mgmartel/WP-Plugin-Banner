@@ -1,0 +1,43 @@
+div.plugin-banner-sc {
+    position: relative;
+    margin: 0;
+    overflow: hidden;
+}
+div.plugin-banner-sc .vignette {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 7px;
+    top: 0;
+    background: transparent;
+    -webkit-box-shadow: inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
+    -moz-box-shadow: inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
+    box-shadow: inset 0 0 50px 4px rgba( 0, 0, 0, 0.2 ), inset 0 -1px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+div.plugin-banner-sc img {
+    max-width: 772px;
+    width: 100%;
+}
+div.plugin-banner-sc h2 {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 30px;
+
+    max-width: 682px;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+    padding: 8px 15px;
+    margin-bottom: 4px;
+
+    color: #fff;
+    background: rgba( 30, 30, 30, 0.9 );
+    text-shadow: 0 1px 3px rgba( 0, 0, 0, 0.4 );
+
+    -webkit-box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+    -moz-box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+    box-shadow: 0 0 30px rgba( 255, 255, 255, 0.1 );
+
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+}
